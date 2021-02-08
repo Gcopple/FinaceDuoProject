@@ -10,6 +10,9 @@ root = Tk()
 root.title("Finance Money Maker")
 #root.iconbitmap()
 
+
+
+
 func_label = Label(root, text = "Function:")
 func_label.grid(row= 0 , column = 0)
 f = Entry(root)
@@ -25,6 +28,10 @@ textwidth = 70
 
 def popup():
     data = messagebox.showinfo("function","10k")
+
+def watchlist():
+    print("debug: Watchlist")
+
 
 
 def get_data():
@@ -47,7 +54,6 @@ def get_data():
             formatted.append(strings)
 
 
-
     printout = "\n".join(formatted)
 
     #print(response.text)
@@ -56,6 +62,8 @@ def get_data():
     Label(root,text = printout,justify = "left").grid(row = 4)
 get_data_button =Button(root,text= "Get me the Money!", command = get_data)
 get_data_button.grid(row = 3, column = 1)
+get_data_button = Button(root,text = "Add to Watchlist", command = watchlist)
+get_data_button.grid(row = 4, column = 1)
 test_button = Button(root,text = "Test Function button", command = popup)
-test_button.grid(row=5, column = 0)
+test_button.grid(row=6, column = 0)
 root.mainloop()
