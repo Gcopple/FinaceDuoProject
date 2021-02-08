@@ -2,9 +2,29 @@ PLanning
 
 
 Watchlist Function
+  take in Ticker
+
+  if ticker = real Ticker
+    continue
+  else
+    print("this is a not an existing ticker")
+
+  if ticker = on Watchlist
+    print("ticker is already on watchlist")
+  else:
+    add ticker to Watchlist
+
+
+    What information does the watchlist need to have
+
+
+portfolio function
+    It holds the information of the amount shares of stock being held
+
+
+
 
 
 Diversity function
   displays the concentration of the portfolio based on company and sector, based on price
   Calculate portfolio Beta
-  
