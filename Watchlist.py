@@ -1,6 +1,12 @@
 import csv
-
+import sys
 #checks if the watchlist.csv file exists
+try:
+    w = open("Watchslist.csv")
+except IOError:
+    sys.exit("That file does not exist")
+
+
 
 #if it doesnt return an error message or create a csvfile
 
