@@ -1,0 +1,7 @@
+check ticker validity 
+
+alphavantage has a listing/deslisting status for tickers.
+could pull the listing/delisting data for all stocks and then check the
+validity of the stocks based off of that data. Should include the last date
+the data was pulled, because i don't think I want to be pulling data all the
+time.
