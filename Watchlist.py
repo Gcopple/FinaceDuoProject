@@ -16,6 +16,8 @@ print("Is this the ticker that you want to add? ",Input_test)
 def check_watchlist_for():
     pass
 
+def check_ticker_validity(ticker):
+    pass
 #adds the ticker to watchlist.csv
 def append_ticker_to_csv():
     pass
