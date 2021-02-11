@@ -19,6 +19,8 @@ if tickervalidity == True:
 else:
     print(requested_ticker, ' is not valid.')
 
+#AAM is a non valid test ticker
+
 
 
 #    print("123")
